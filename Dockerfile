@@ -12,5 +12,6 @@ CMD /usr/sbin/sshd -D
 
 USER nobody
 WORKDIR /tmp
+ENV foo "bar"
 
 EXPOSE 2233
